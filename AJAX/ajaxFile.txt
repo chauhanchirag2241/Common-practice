@@ -1,0 +1,8 @@
+AJAX - asynchronous javascript and xml
+AJAX helps in fetching data asynchronously without interfering with the existing page.
+no page reload/refresh
+modern websites use JSON 
+
+
+AJAX uses XMLHttpRequest object (also called xhr object) to achieve this
+
