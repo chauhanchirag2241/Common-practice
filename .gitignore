@@ -1,0 +1,67 @@
+# Ignore Visual Studio Code workspace settings
+.vscode/
+.vscode/*
+
+# Ignore user-specific files in Visual Studio and VS Code
+*.code-workspace
+
+# Ignore build output directories
+bin/
+obj/
+out/
+dist/
+tmp/
+out-tsc/
+
+# Ignore dependencies and packages
+node_modules/
+bower_components/
+
+# Ignore environment and sensitive files
+.env
+.env.*.local
+
+# Logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Ignore compiled JavaScript and CSS files
+*.js
+*.js.map
+*.css
+*.css.map
+
+# Ignore IDE-specific settings
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+ehthumbs.db
+
+# Ignore system files
+*.swp
+*~
+.project
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore .NET-specific output and user files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Ignore ASP.NET Scaffolding files
+ScaffoldingReadMe.txt
+
+# Ignore compiled Angular summary files
+*.ngsummary.json
