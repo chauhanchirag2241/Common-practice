@@ -56,3 +56,19 @@ ajax with jquery
  $.get(utl);
 
  $.post(URL,data,callback); 
+
+- jQuery is a Javascript Library 
+- jQuery greatly simplifies Java Script programming
+- jQuery is easy to learn
+
+jquery and ohter javascript frameworks
+as you already know jquery uses the $ sign as a shortcut for jquery
+there are many other popular javascript frameworks like angular , backbone, ember , knockout, and more 
+what if other javascript frameworks also use the $sign as a shortcut
+
+if two different frameworks are using the same shortcut.ont of them might stop working
+the jqury team have already tought about this, and implement the noconflict() method.
+
+the jquery noConflict method
+the no conflict() method releases the hold on the $ shortcut identifier,so theat other scrpts can use it.
+you can of cource still use jquery simpl by writeting ghe full name instead of the shortcut
