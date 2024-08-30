@@ -1,0 +1,58 @@
+- jQuery is a JavaScript Library.
+
+- jQuery greatly simplifies JavaScript programming.
+
+- jQuery is easy to learn.
+
+- Syntax : $('selector').action()
+
+$('p').click()
+
+$('p').click(function(){
+    
+})
+
+- run jQuery after document is ready.
+$(document).ready(function(){
+    //jQuery code here...
+})
+
+-> there are three main types of selectors in jQuery
+1. element selector
+example : $('p').click(function(){
+
+})
+
+2. id selector
+$('#id_name').action();
+
+
+3. class selector
+$('.Class_name').action()
+
+
+4. Other selector
+ -> $('*') = for all
+ -> $('p:first') = first element
+
+
+ ** Events In Jquery
+
+ 1. Mouse Events
+  - click , dblclick , mouseenter , mouseleave
+
+2. Keyboard Events 
+    = keypress, keydown , mediakeyStatusMap
+
+3. form evets 
+ - submit , change, focus , blur
+
+4. document/window Events
+ - load, resize ,  scroll, unload
+
+
+ajax with jquery
+
+ $.get(utl);
+
+ $.post(URL,data,callback); 
