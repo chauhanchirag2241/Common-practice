@@ -1,0 +1,132 @@
+* Various ways to achieve responsive design
+1. Setting up the viewport
+2. Use max-width/max-height
+3. using css media queries
+4. using rem/vh/vw units over pixels
+
+
+* em
+
+ - set font size as per parent element
+ - supose parent container have font-size 10px and we give child to 10em then it take 10*10 = 100px of size for child 
+
+
+
+ * rem
+
+ - set size as per base element.
+ - suppose we set html font size 10px 
+ - and child element 3rem it takes 30px for child (10*3)
+
+
+* vh
+
+- vh view port height set as per view port
+- if set 100vh set full screen 
+
+* vw
+
+- vw view port width set as per view port
+- if set 100vw set full screen width
+
+
+
+* Font css
+
+- font-family => 
+web safe font  - provide by every operating system
+web font - need to import (google font)
+
+- font-size =>
+
+define size of font
+px - 1/96 of an inch
+
+
+line-height =>
+define space between two lines
+
+font-weight => bold font
+
+font- syle => style of font italic etc...
+
+
+* colors in css
+
+- name
+- rgb(0-255)
+- #ffffff hex colors
+
+* background colors
+
+* height
+
+* width
+
+
+* border
+border = top
+border-radious-top-left
+
+* background
+
+background-image 
+backgound-repeat-x
+backgound-repeat-y
+backgound-repeat : norepeat
+background-position : (x, y)  center , top, px , 
+
+
+box-model
+
+* float
+
+float : left
+clear : both - don't over lap  float property
+
+-  margin auto work with width
+ 
+
+
+* Display
+
+Display : block
+- can set width of block element
+- all space take
+
+Display : inline
+- can not set width of inline element
+- take place which required for it
+
+Display : inlinebloack
+- can not set width of inline element
+- can set width of block element
+
+
+* Position
+
+static (default)
+absolute
+relative
+fixed
+sticky
+
+
+1. relative
+- relative to it's normal position
+- top,left,right
+
+- apply top , left , right based on it's normal position
+
+2. absolute
+- relative to it's parent element position.
+- apply top,left,right based on parent element position.
+
+3.fixed
+- set fixed at any where in brwoser like chat bot button
+-relative to browser'
+
+
+4. sticky
+- first at it's place after scroll set stiky 
+

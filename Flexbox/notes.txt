@@ -1,0 +1,6 @@
+* Various ways to achieve responsive design
+1. Setting up the viewport
+2. Use max-width/max-height
+3. using css media queries
+4. using rem/vh/vw units over pixels
+
