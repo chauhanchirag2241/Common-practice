@@ -130,3 +130,66 @@ sticky
 4. sticky
 - first at it's place after scroll set stiky 
 
+
+
+* visibility
+visibility:hidden - hide element
+Display:none - hide element with space
+
+* z-index
+- z index work with only position property 
+- by default position is static and z-index not work with it
+
+* flexbox
+
+- Flexbox is a one-dimensional layout method for laying out css items in rows or columns.
+
+- css flexbox is better way to align items into a container.
+
+1. flex-container
+Display:flex;
+
+flex-direction : row , column , row - reverse , column-revierce
+
+flex-wrap - wrap , no wrap
+
+flex-flow - for give direction and wrap together.
+
+justify-content:center , space-between , space-evenly , space-around (in horizontal direction)
+
+align-tem (vertical direction) : center , space-between , space-evenly,space-around
+
+
+
+
+2. flex-items
+
+order : 1,2,3,.... 
+- higher order element set last.
+
+flex-grow: 3;
+- take more space than other element
+
+  flex-basis: 320px;
+    /* when flex-direction is row flex-basis will control width */
+    /* when flex-direction:  is set column flex-basis will control height; */
+    
+flex: 2 2 230px;
+flex : flex-grow flex-srink  flex-basis
+
+align-self : flex-start flex-end center
+
+
+*  selectors :
+
+div > p - direct child of div ( > )
+
+div + p - previous sibling p ( + )
+
+
+sudo selectors
+input[]
+
+
+ * Transition
+ - 
